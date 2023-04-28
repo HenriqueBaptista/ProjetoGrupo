@@ -1,2 +1,35 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Criar um menu onde o usuário poderá inserir um preço de um produto.
+// Depois da inserção, pedir a forma de pagamento, sendo elas:
+
+// . Boleto - Artur
+// . Cartão - Rebeca
+
+// Se a escolha for Cartão, acessar as escolhas:
+
+// . Débito - Lucca
+// . Crédito - Felipe
+
+Console.WriteLine($"Digite o nome do produto: ");
+string produto = Console.ReadLine()!;
+Br();
+Console.WriteLine($"Digite o preço do produto: ");
+float preco = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine(@$"
+Digite a forma de pagamento: 
+
+[1] Cartão
+[2] Boleto
+");
+string pagamento = Console.ReadLine()!;
+
+
+
+
+
+// Short Codes
+static string Br()
+{
+    Console.WriteLine($"");
+    return "";
+}
