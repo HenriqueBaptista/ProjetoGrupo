@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\ProjetoGrupo.csproj": {}
+    "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\ProjetoGrupo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\ProjetoGrupo.csproj": {
+    "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\ProjetoGrupo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\ProjetoGrupo.csproj",
+        "projectUniqueName": "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\ProjetoGrupo.csproj",
         "projectName": "ProjetoGrupo",
-        "projectPath": "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\ProjetoGrupo.csproj",
-        "packagesPath": "C:\\Users\\49957976885\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\obj\\",
+        "projectPath": "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\ProjetoGrupo.csproj",
+        "packagesPath": "C:\\Users\\Artur Fiorentino\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\49957976885\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artur Fiorentino\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

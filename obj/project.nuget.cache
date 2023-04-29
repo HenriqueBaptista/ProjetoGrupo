@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "601r2bxtK0OOyKKx7rDZBt7gT5WCR4Uo2TKVnfA4jFU8owlrtVCoEL30P0h3eURaKTwd70Vf5B0GXFyJdD8jAQ==",
+  "dgSpecHash": "dOt8mjgLQkUK5ZB3b0ZF4tKfmXETh2Sj5AHNZixmmCU/2H9E0/6KJhFtN14CYb9xCsLtuLwXek5VIlZjDgfEyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\ProjetoGrupo.csproj",
+  "projectFilePath": "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\ProjetoGrupo.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
