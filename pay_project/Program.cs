@@ -9,6 +9,13 @@
 // . Débito - Lucca
 // . Crédito - Felipe
 
+using ProjetoGrupo;
+
+Pagamento pagar = new Pagamento();
+Boleto bolet = new Boleto();
+
+
+
 Console.WriteLine($"Digite o nome do produto: ");
 string produto = Console.ReadLine()!;
 Br();
