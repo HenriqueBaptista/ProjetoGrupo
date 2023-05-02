@@ -1,17 +1,17 @@
 
 namespace ProjetoGrupo
 {
-    private class Credito
+    public class Credito : Cartao
     {
-        private float Limite()
+        private float limite = 5000;
+        public override void Pagar()
         {
-            float limite = Console.WriteLine($"Seu limite é: {}");
-            return limite;
-        }
-        // juros 5% até 6 parcelas
-        if (parcelas)
-        {
-            
+            if (ValorCompra < limite)
+            {
+                Console.WriteLine($"O valor a ser pago é de {ValorCompra}");
+                
+                
+            }
         }
     }
 }
