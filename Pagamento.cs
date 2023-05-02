@@ -2,7 +2,7 @@ namespace ProjetoGrupo
 {
     public class Pagamento
     {
-        private string horaCompra = DateTime.Now.ToString();
+        public DateTime Data{get; private set;}
         public float valorCompra;
         public void Cancelar()
         {
