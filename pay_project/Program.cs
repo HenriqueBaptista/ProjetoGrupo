@@ -13,9 +13,10 @@ using ProjetoGrupo;
 
 bool reset = false;
 
+
 Pagamento pagar = new Pagamento();
 Boleto pay = new Boleto();
-
+PagamentoDebito debito = new PagamentoDebito();
 
 
 
@@ -36,34 +37,39 @@ Digite a forma de pagamento:
 ");
     string pagamento = Console.ReadLine()!;
 
-    switch (pagamento)
+    if (pagamento == "1")
     {
-        case "1":
+        bool sair = false;
+        debito.SalvarCartao(sair);
 
-            break;
 
-        case "2":
-            break;
+        debito.Pagar(valorProduto, debito.restante, sair);
+        reset = true;
 
-        case "3":
-            pay.valorCompra = valorProduto;
-
-            pay.CodigoDeBarras = "...";
-            pay.Registrar();
-
-            reset = true;
-            break;
-
-        case "0":
-            pagar.Cancelar();
-
-            reset = true;
-            break;
-
-        default:
-            Console.WriteLine($"Caractér inválido");
-            break;
     }
+    else if (pagamento == "2")
+    {
+
+    }
+    else if (pagamento == "3")
+    {
+        pay.valorCompra = valorProduto;
+
+        pay.Registrar();
+
+        reset = true;
+    }
+    else if (pagamento == "0")
+    {
+        pagar.Cancelar();
+
+        reset = true;
+    }
+    else
+    {
+        Console.WriteLine($"Caractér inválido");
+    }
+
 } while (reset == false);
 
 

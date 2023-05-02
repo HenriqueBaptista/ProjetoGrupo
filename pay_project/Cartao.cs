@@ -1,6 +1,6 @@
 namespace ProjetoGrupo
 {
-    public abstract class Cartao 
+    public abstract class Cartao : Pagamento
     {
         public string ?Bandeira { get; set; }
         public string ?NumeroCartao { get; set; }
@@ -9,7 +9,7 @@ namespace ProjetoGrupo
 
 
         abstract public void Pagar();
-        public void SalvarCartao()
+        public void SalvarCartao(bool sair)
         {
             string bandeira = "";
 
@@ -33,8 +33,8 @@ namespace ProjetoGrupo
    (2)- MasterCard                           
    (3)- American Express                            
    (4)- Elo                   
-                                           
-   0- Sair/Fechar                          
+   (0)- Cancelar                                     
+                       
  
         ");
 
@@ -58,11 +58,13 @@ namespace ProjetoGrupo
 
                     case "4":
                         Console.WriteLine($"Bandeira selecionada: American Express");
+
+                        break;
+                        case "0":
+                        Environment.Exit(0);
+                        Console.WriteLine($"{this.Cancelar}");
                         break;
 
-                    case "0":
-                        Console.WriteLine($"Fechando... Obrigado(a)!");
-                        break;
 
                     default:
                         Console.WriteLine($"Opção inexistente! Tente novamente: ");
@@ -70,7 +72,6 @@ namespace ProjetoGrupo
                         bandeira = Console.ReadLine()!;
                         break;
                 }
-                Console.WriteLine("Informações do cartão salvas com sucesso!");
                 break;
             } while (bandeira != "0");
 

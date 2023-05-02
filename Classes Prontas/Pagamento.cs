@@ -11,7 +11,6 @@ namespace ProjetoGrupo
         public float valorCompra;
         public void Cancelar()
         {
-            Environment.Exit(0);
             Console.WriteLine($"Compra cancelada !!");
         }
     }
