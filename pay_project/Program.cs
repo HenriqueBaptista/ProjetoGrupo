@@ -23,6 +23,19 @@ Digite a forma de pagamento:
 ");
 string pagamento = Console.ReadLine()!;
 
+switch (pagamento)
+{
+    case "1":
+        break;
+    case "2":
+        break;
+    default:
+    Console.WriteLine($"Caractér inválido");
+    
+        break;
+}
+
+
 
 
 
