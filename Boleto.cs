@@ -2,14 +2,15 @@ using ProjetoGrupo;
 
 namespace ProjetoGrupo
 {
-    public class Boleto
+    public class Boleto : Pagamento
     {
-        Pagamento pay = new Pagamento();
-        public string CodigoDeBarras;
+        
+        Random codigoDeBarras = new Random();
 
         public void Registrar(){
             Console.WriteLine($"Boleto gerado com sucesso!!!");
-            Console.WriteLine($"Valor da compra = {pay.valorCompra * 0.88}");
+            Console.WriteLine($"Valor da compra = {this.valorCompra * 0.88}");
+            Console.WriteLine($"Código gerado {codigoDeBarras.Next()}");
             
         }
     }

@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Artur Fiorentino\\.nuget\\packages\\": {}
+    "C:\\Users\\49957976885\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\ProjetoGrupo.csproj",
+      "projectUniqueName": "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\ProjetoGrupo.csproj",
       "projectName": "ProjetoGrupo",
-      "projectPath": "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\ProjetoGrupo.csproj",
-      "packagesPath": "C:\\Users\\Artur Fiorentino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\obj\\",
+      "projectPath": "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\ProjetoGrupo.csproj",
+      "packagesPath": "C:\\Users\\49957976885\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\49957976885\\Desktop\\ProjetoGrupo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Artur Fiorentino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\49957976885\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,16 +61,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\Artur Fiorentino\\OneDrive\\Área de Trabalho\\ProjetoGrupo\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
