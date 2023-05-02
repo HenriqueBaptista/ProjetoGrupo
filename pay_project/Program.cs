@@ -11,45 +11,63 @@
 
 using ProjetoGrupo;
 
+bool reset = false;
+
 Pagamento pagar = new Pagamento();
-Boleto bolet = new Boleto();
+Boleto pay = new Boleto();
 
 
 
-Console.WriteLine($"Digite o nome do produto: ");
-string produto = Console.ReadLine()!;
-Br();
+
+
+
 Console.WriteLine($"Digite o preço do produto: ");
-float preco = int.Parse(Console.ReadLine()!);
+int valorProduto = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine(@$"
+do
+{
+    Console.WriteLine(@$"
 Digite a forma de pagamento: 
 
-[1] Cartão
-[2] Boleto
+[1] Débito
+[2] Crédito
+[3] Boleto
+[0] Cancela
 ");
-string pagamento = Console.ReadLine()!;
+    string pagamento = Console.ReadLine()!;
 
-switch (pagamento)
-{
-    case "1":
-        break;
-    case "2":
-        break;
-    default:
-    Console.WriteLine($"Caractér inválido");
-    
-        break;
-}
+    switch (pagamento)
+    {
+        case "1":
 
+            break;
+
+        case "2":
+            break;
+
+        case "3":
+            pay.valorCompra = valorProduto;
+
+            pay.CodigoDeBarras = "...";
+            pay.Registrar();
+
+            reset = true;
+            break;
+
+        case "0":
+            pagar.Cancelar();
+
+            reset = true;
+            break;
+
+        default:
+            Console.WriteLine($"Caractér inválido");
+            break;
+    }
+} while (reset == false);
 
 
 
 
 
 // Short Codes
-static string Br()
-{
-    Console.WriteLine($"");
-    return "";
-}

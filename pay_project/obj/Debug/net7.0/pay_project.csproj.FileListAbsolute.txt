@@ -1,0 +1,15 @@
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\bin\Debug\net7.0\pay_project.exe
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\bin\Debug\net7.0\pay_project.deps.json
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\bin\Debug\net7.0\pay_project.runtimeconfig.json
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\bin\Debug\net7.0\pay_project.dll
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\bin\Debug\net7.0\pay_project.pdb
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\pay_project.csproj.AssemblyReference.cache
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\pay_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\pay_project.AssemblyInfoInputs.cache
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\pay_project.AssemblyInfo.cs
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\pay_project.csproj.CoreCompileInputs.cache
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\pay_project.dll
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\refint\pay_project.dll
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\pay_project.pdb
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\pay_project.genruntimeconfig.cache
+C:\Users\54454818835\Desktop\ProjetoGrupo\pay_project\obj\Debug\net7.0\ref\pay_project.dll

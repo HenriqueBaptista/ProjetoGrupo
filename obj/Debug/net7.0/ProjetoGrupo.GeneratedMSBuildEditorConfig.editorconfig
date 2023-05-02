@@ -8,8 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoGrupo
-<<<<<<< HEAD
-build_property.ProjectDir = c:\Users\49957976885\Desktop\ProjetoGrupo\
-=======
-build_property.ProjectDir = C:\Users\50866670890\Desktop\ProjetoGrupo\
->>>>>>> origin/miguel
+build_property.ProjectDir = c:\Users\54454818835\Desktop\ProjetoGrupo\

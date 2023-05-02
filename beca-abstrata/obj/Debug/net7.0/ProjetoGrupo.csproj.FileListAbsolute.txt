@@ -1,0 +1,15 @@
+C:\Users\54931473865\Desktop\ProjetoGrupo\bin\Debug\net7.0\ProjetoGrupo.exe
+C:\Users\54931473865\Desktop\ProjetoGrupo\bin\Debug\net7.0\ProjetoGrupo.deps.json
+C:\Users\54931473865\Desktop\ProjetoGrupo\bin\Debug\net7.0\ProjetoGrupo.runtimeconfig.json
+C:\Users\54931473865\Desktop\ProjetoGrupo\bin\Debug\net7.0\ProjetoGrupo.dll
+C:\Users\54931473865\Desktop\ProjetoGrupo\bin\Debug\net7.0\ProjetoGrupo.pdb
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ProjetoGrupo.csproj.AssemblyReference.cache
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ProjetoGrupo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ProjetoGrupo.AssemblyInfoInputs.cache
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ProjetoGrupo.AssemblyInfo.cs
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ProjetoGrupo.csproj.CoreCompileInputs.cache
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ProjetoGrupo.dll
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\refint\ProjetoGrupo.dll
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ProjetoGrupo.pdb
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ProjetoGrupo.genruntimeconfig.cache
+C:\Users\54931473865\Desktop\ProjetoGrupo\obj\Debug\net7.0\ref\ProjetoGrupo.dll
