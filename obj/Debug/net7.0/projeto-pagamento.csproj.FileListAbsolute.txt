@@ -1,0 +1,15 @@
+C:\Users\54931473865\Desktop\projeto-pagamento\bin\Debug\net7.0\projeto-pagamento.exe
+C:\Users\54931473865\Desktop\projeto-pagamento\bin\Debug\net7.0\projeto-pagamento.deps.json
+C:\Users\54931473865\Desktop\projeto-pagamento\bin\Debug\net7.0\projeto-pagamento.runtimeconfig.json
+C:\Users\54931473865\Desktop\projeto-pagamento\bin\Debug\net7.0\projeto-pagamento.dll
+C:\Users\54931473865\Desktop\projeto-pagamento\bin\Debug\net7.0\projeto-pagamento.pdb
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\projeto-pagamento.csproj.AssemblyReference.cache
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\projeto-pagamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\projeto-pagamento.AssemblyInfoInputs.cache
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\projeto-pagamento.AssemblyInfo.cs
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\projeto-pagamento.csproj.CoreCompileInputs.cache
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\projeto-pagamento.dll
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\refint\projeto-pagamento.dll
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\projeto-pagamento.pdb
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\projeto-pagamento.genruntimeconfig.cache
+C:\Users\54931473865\Desktop\projeto-pagamento\obj\Debug\net7.0\ref\projeto-pagamento.dll
