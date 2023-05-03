@@ -1,13 +1,13 @@
 ﻿using projeto_pagamento;
 
+//variáveis:
 string opcao = "";
 Boleto PagarBoleto = new Boleto();
 Pagamento Pague = new Pagamento();
 Debito Debito = new Debito();
 Credito Credito = new Credito();
 
-
-
+//função menú:
 void menu()
 {
     Console.ForegroundColor = ConsoleColor.DarkGray;
@@ -23,7 +23,7 @@ void menu()
 
 ");
     Console.ResetColor();
-    Console.ForegroundColor = ConsoleColor.DarkGray;
+    Console.ForegroundColor = ConsoleColor.Black;
     Console.WriteLine($"Seleciona a opção desejada: ");
     Console.ResetColor();
     opcao = Console.ReadLine()!;
@@ -40,14 +40,9 @@ do
             Console.ResetColor();
             PagarBoleto.valor = float.Parse(Console.ReadLine()!);
 
-
             Console.WriteLine(PagarBoleto.CodigoDeBarras());
             PagarBoleto.Registrar();
             break;
-
-
-
-
 
         case "2":
             Debito.SalvarCartao();
@@ -55,7 +50,6 @@ do
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
             Credito.valor = float.Parse(Console.ReadLine()!);
             Console.ResetColor();
-
 
             Credito.Pagar();
             break;
@@ -69,7 +63,6 @@ do
             Debito.Pagar();
             break;
 
-
         case "0":
             break;
 
@@ -80,7 +73,6 @@ do
             opcao = Console.ReadLine()!;
             break;
     }
-
 
 } while (opcao != "0");
 Console.ForegroundColor = ConsoleColor.Red;

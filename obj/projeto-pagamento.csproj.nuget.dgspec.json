@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\54931473865\\Desktop\\projeto-pagamento\\projeto-pagamento.csproj": {}
+    "C:\\Users\\54931473865\\Desktop\\ProjetoGrupo\\projeto-pagamento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\54931473865\\Desktop\\projeto-pagamento\\projeto-pagamento.csproj": {
+    "C:\\Users\\54931473865\\Desktop\\ProjetoGrupo\\projeto-pagamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\54931473865\\Desktop\\projeto-pagamento\\projeto-pagamento.csproj",
+        "projectUniqueName": "C:\\Users\\54931473865\\Desktop\\ProjetoGrupo\\projeto-pagamento.csproj",
         "projectName": "projeto-pagamento",
-        "projectPath": "C:\\Users\\54931473865\\Desktop\\projeto-pagamento\\projeto-pagamento.csproj",
+        "projectPath": "C:\\Users\\54931473865\\Desktop\\ProjetoGrupo\\projeto-pagamento.csproj",
         "packagesPath": "C:\\Users\\54931473865\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\54931473865\\Desktop\\projeto-pagamento\\obj\\",
+        "outputPath": "C:\\Users\\54931473865\\Desktop\\ProjetoGrupo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\54931473865\\AppData\\Roaming\\NuGet\\NuGet.Config",

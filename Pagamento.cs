@@ -3,26 +3,15 @@ namespace projeto_pagamento
 {
     public class Pagamento
     {
-
-
-        //Propriedades
-
+        // Propriedades:
         public float valor;
-
         public DateTime date1 { get; private set; } = DateTime.Now;
 
-
-
-        //Metodos
+        //Métodos
 
         public string Cancelar()
         {
-
-
-            return "A sessao de pagamento foi cancelada, Inicie outra sessao para acessar as opcoes novamente.";
-
-
+            return "Seu pagamento foi cancelado! Por favor tente novamente!";
         }
-
     }
 }

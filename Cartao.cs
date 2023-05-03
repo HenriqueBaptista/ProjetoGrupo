@@ -3,12 +3,13 @@ namespace projeto_pagamento
 {
     public abstract class Cartao : Pagamento
     {
+        //propriedades:
         public string Bandeira { get; set; }
         public string NumeroCartao { get; set; }
         public string Titular { get; set; }
         public string CVV { get; set; }
 
-
+        //funções:
         abstract public void Pagar();
         public void SalvarCartao()
         {
@@ -51,49 +52,48 @@ namespace projeto_pagamento
                 switch (bandeira)
                 {
                     case "1":
-                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
                         Console.WriteLine($"Bandeira selecionada: MasterCard");
                         Console.ResetColor();
                         break;
 
                     case "2":
-                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
                         Console.WriteLine($"Bandeira selecionada: Elo");
                         Console.ResetColor();
                         break;
 
                     case "3":
-                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
                         Console.WriteLine($"Bandeira selecionada: American Express");
                         Console.ResetColor();
                         break;
 
                     case "4":
-                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
                         Console.WriteLine($"Bandeira selecionada: Visa");
                         Console.ResetColor();
                         break;
 
                     case "0":
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
                         Console.WriteLine($"Fechando... Obrigado!");
                         Console.ResetColor();
                         Environment.Exit(0);
                         break;
 
                     default:
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
                         Console.WriteLine($"Opção inexistente! Tente novamente: ");
                         Console.ResetColor();
                         bandeira = Console.ReadLine()!;
                         break;
                 }
-                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Informações do cartão salvas com sucesso!");
                 Console.ResetColor();
                 break;
             } while (bandeira != "0");
-
         }
     }
 }
