@@ -3,7 +3,7 @@ namespace projeto_pagamento
 {
     public class Debito : Cartao
     {
-        private float saldo = 5000;
+        private float saldo = 500000000;
 
         public override void Pagar()
         {
