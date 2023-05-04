@@ -90,7 +90,7 @@ namespace projeto_pagamento
                         break;
                 }
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                Console.WriteLine("Informações do cartão salvas com sucesso!");
+                Console.WriteLine("Informações do cartão salvas, obrigado(a)!");
                 Console.ResetColor();
                 break;
             } while (bandeira != "0");
